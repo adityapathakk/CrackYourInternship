@@ -18,7 +18,7 @@ class Solution:
         # nums1[:] = nums1 + nums2
         # return nums1.sort()
 
-        #for i in range(m + n - 1, n - 1, -1): Approach 3
+        # Approach 3
         for i in (nums1[m:]):
             if i == 0:
                 nums1.remove(0)
